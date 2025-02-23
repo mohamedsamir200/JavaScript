@@ -228,3 +228,165 @@
 // "o"
 // "o"
 //#endregion;
+"=========================  20  ============================";
+//#region ======>  20 <===========
+// let st = "Elzero";
+// console.log(st.slice(-1));
+// console.log(st.substring(5));
+// console.log(st.charAt(5));
+// console.log(st.split("")[5]);
+// console.log(st.split("").filter((char, index) => index === 5 ? char : "").join(""));
+// console.log(st.split("").reduce((acc, char, index) => index === 5 ? char : acc));
+// console.log(st.match(/o/)[0]);
+// Needed Output
+// "o"
+// "o"
+// "o"
+// "o"
+// "o"
+// "o"
+// "o"
+//#endregion;
+"=========================  21  ============================";
+//#region ======>  21 <===========
+// function getLastDigit(num) {
+//     // return  num % 10
+//     // OR 
+//     // return + num.toString ().slice (-1)
+//   }
+
+//   console.log(getLastDigit(1)); // 1
+//   console.log(getLastDigit(18)); // 8
+//   console.log(getLastDigit(305)); // 5
+//   console.log(getLastDigit(1569)); // 9
+//   console.log(typeof getLastDigit(1569)); // Number
+//#endregion;
+"=========================  22  ============================";
+//#region ======>  22 <===========
+// let str1 = "AElzero";
+// let str2 = "ZAcademy";
+
+// console.log(str1.slice(1)+" "+str2.slice((1))); // Elzero Academy
+//#endregion;
+"=========================  23  ============================";
+//#region ======>  23 <===========
+
+// function reversing(str) {
+
+//     return str.split(/\b/).map(word => 
+//         /^[a-zA-Z]+$/.test(word) ? word.split("").reverse().join("") : word
+//     ).join("");
+
+// }
+// console.log(reversing(",@Hello, E@lzero")); // ,@olleH, E@orezl
+//#endregion;
+"=========================  24  ============================";
+//#region ======>  24 <===========
+// function dashBetweenOdd(num) {
+//     return num.toString()
+//         .split("")
+//         .map((num, index, arr) => num % 2 !== 0 && arr[index + 1] % 2 !== 0 ? num + "-" : num)
+//         .join("");
+// }
+// console.log(dashBetweenOdd(150653127)); // 1-5065-3-127
+// console.log(dashBetweenOdd(5314557922)); // 5-3-145-5-7-922
+//#endregion;
+"=========================  25  ============================";
+//#region ======>  25 <===========
+// let myArr = [10, 10, 20, 20, 10, 30, 50, 20, 10];
+// console.log(myArr = []) ;
+
+// console.log(myArr.length = []) ;
+
+// myArr.splice(0 ,  myArr.length)
+// console.log(myArr)
+
+// while (myArr.length > 0) {
+//     myArr.pop();
+// }
+// console.log(myArr); 
+
+
+// Output Needed
+// []
+//#endregion;
+"=========================  26  ============================";
+//#region ======>  26 <===========
+// let myArr = [10, 10, 20, 20, 10, 30, 50, 20, 10];
+// let uniqueArr = [];
+// for (let i = 0; i < myArr.length; i++) {
+//     if (!uniqueArr.includes(myArr[i])) {
+//         uniqueArr.push (myArr[i])
+//     }
+// }
+// console.log(uniqueArr);
+
+// myArr.forEach((ele) => !uniqueArr.includes(ele) ? uniqueArr.push(ele) : "");
+// console.log(uniqueArr);
+
+// let uniqueArr = myArr.filter( (ele , index , arr) => arr.indexOf(ele) == index )
+// console.log(uniqueArr)
+
+// console.log([... new Set (myArr)])
+
+// Output Needed
+// [10, 20, 30, 50]
+//#endregion;
+"=========================  27  ============================";
+//#region ======>  27 <===========
+// let myArr = ["69", "108", "122", "101", "114", "111"];
+// let result = String.fromCharCode(...myArr)
+// console.log(result); // Elzero
+//#endregion;
+"=========================  28  ============================";
+//#region ======>  28 <===========
+// Write Your Function Here
+
+// function customMerge(...numbers) {
+//     let [x, y, z] = numbers;
+//     let all = [...x, ...y, ...z];
+//     let arr = all.sort((a, b) => a - b).map((nums) => +nums);
+//     return arr;
+// }
+
+// console.log(customMerge([10, 20, "30", 1000], [100, "50", 20], [90, 20, "40", 10]));
+// [10, 10, 20, 20, 20, 30, 40, 50, 90, 100, 1000]
+//#endregion;
+"=========================  29  ============================";
+//#region ======>  29 <===========
+// Write Your Function Here
+// function customCalc(...nums) {
+//     let filteredNums = nums.filter(num => parseInt(num));
+//     let sum = filteredNums.reduce((acc, num) => acc + parseInt(num), 0);
+//     return sum * parseInt(filteredNums[0]) * parseInt(filteredNums[filteredNums.length - 1]);
+// }
+// console.log(customCalc("10", 20, "A", "40", 15));
+// // 12750 <= (10 + 20 + 40 + 15) * 10 * 15
+
+// console.log(customCalc(5, "15", 10, 5, 10));
+// // 2250 <= (5 + 15 + 10 + 5 + 10) * 5 * 10
+
+// console.log(customCalc(30, 5, "C", 10));
+// // 13500 <= (30 + 5 + 10) * 30 * 10
+
+//#endregion;
+"=========================  30  ============================";
+//#region ======>  30 <===========
+// for (let i = 1; i < 100; i += 5) {
+//     if (i % 2 !== 0) {
+//         console.log(i);
+//     }
+// }
+
+// // Output Needed
+// //   1
+// //   11
+// //   21
+// //   31
+// //   41
+// //   51
+// //   61
+// //   71
+// //   81
+// //   91
+//#endregion;
