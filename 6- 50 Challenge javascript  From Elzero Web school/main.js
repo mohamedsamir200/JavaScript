@@ -105,22 +105,61 @@
 
 "=========================  11  ============================";
 //#region ======>  11 <===========
+// let myMoney = 5301503206;
+// let formattedMoney = myMoney.toLocaleString();
+// console.log(formattedMoney);
 
+// Needed Output 5,301,503,206
 //#endregion
 "=========================  12  ============================";
 //#region ======>  12 <===========
+// let names = ["Osso", "Aola", "Essa", "Igaa", "Daad", "Roor"];
+// let result = [];
 
+// for (let i = 0; i < names.length; i++) {
+//     if (names[i][0].toLowerCase() === names[i][ names[i].length -1 ].toLowerCase()) {
+//         result.push(names[i])
+//     }
+
+// }
+// console.log(result); // ['Osso', 'Aola', 'Daad', 'Roor']
 //#endregion
 "=========================  13  ============================";
 //#region ======>  13 <===========
+// let theName = "Elzero";
+// console.log(`${theName[0]}${ theName[theName.length - 1]}`) ; 
+// console.log(theName.split("").slice(1 , 5).join("")) ; 
+// console.log(theName.split("").slice(2 , 4).join("")) ; 
 
+// Line 1 => Eo
+// Line 2 => lzer
+// Line 3 => ze
 //#endregion
 "=========================  14  ============================";
 //#region ======>  14 <===========
+// function repeatWithRules(word) {
+//     let result = "" 
+//     for (let i = 0 ; i < word.length ; i++) {
+//         result += word[i].repeat( i + 1 )
+//     }
+//     return result
+//   }
 
+//   console.log(repeatWithRules("Elzero")); // Ellzzzeeeerrrrroooooo
+//   console.log(repeatWithRules("Hello")); // Heelllllllooooo
 //#endregion
 "=========================  15  ============================";
 //#region ======>  15 <===========
+// function concatenateWithoutLast(words) {
+//     // let result = "";
+//     // for (let i = 0; i < words.length; i++) {
+//     //     result += words[i].slice(0, words[i].length - 1).replace("", " ");
+//     // }
+//     // return result;
+//     "=============== Other Solution ==============";
+//     // return words.map ( (word) => word.slice ( 0 , -1) ).join(" ")
+// }
+// console.log(concatenateWithoutLast(["Elzeros", "Webd", "Schoold"])); // Elzero Web School
 
 //#endregion
 "=========================  16  ============================";
@@ -142,4 +181,4 @@
 "=========================  20  ============================";
 //#region ======>  20 <===========
 
-//#endregion
+//#endregion;
