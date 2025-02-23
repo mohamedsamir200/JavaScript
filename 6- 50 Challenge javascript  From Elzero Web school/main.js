@@ -164,21 +164,67 @@
 //#endregion
 "=========================  16  ============================";
 //#region ======>  16 <===========
+// function getCharacters(word, nums) {
+//     return word.slice( 0 , nums) + word.slice(-nums)
+//   }
 
+//   console.log(getCharacters("Elzero School", 2)); // Elol
+//   console.log(getCharacters("Elzero School", 3)); // Elzool
 //#endregion
 "=========================  17  ============================";
 //#region ======>  17 <===========
+// function formatName(theName) {
+//     return theName.split(" ").map((word) => word[0].toLowerCase()).join(".")
+//         .replace(/[a-z]/, (match) => match.toUpperCase());
+// }
 
+// console.log(formatName("Osama Elzero")); // O.e
+// console.log(formatName("Elzero Web School")); // E.w.s
 //#endregion
+
 "=========================  18  ============================";
 //#region ======>  18 <===========
+// let st = "elzero";
 
+// console.log(st[0].toUpperCase() + st.slice(1));
+// console.log(st.slice(0, 1).toUpperCase() + st.slice(1));
+// console.log(st.charAt(0).toUpperCase() + st.slice(1));
+// console.log(st.replace(/[a-z]/, match => match.toUpperCase()));
+// console.log(st.replace(/^./, st[0].toUpperCase()));
+// console.log(st.substring(0, 1).toUpperCase() + st.substring(1));
+// console.log(st.split("").map( (char , index) => index === 0 ? char.toUpperCase() : char ).join("")) ; 
+// Output Needed
+// "Elzero"
+// "Elzero"
+// "Elzero"
+// "Elzero"
+// "Elzero"
+// "Elzero"
+// "Elzero"
 //#endregion
 "=========================  19  ============================";
 //#region ======>  19 <===========
-
+// let st = "Web SchoolElzero ";
+// console.log(st.slice(-7) + st.slice(-17 , -13) + st.slice(-13 , -7))
+// Needed Output
+// "Elzero Web School";
 //#endregion
 "=========================  20  ============================";
 //#region ======>  20 <===========
-
+// let st = "Elzero";
+// console.log(st.slice(-1));
+// console.log(st.substring(5));
+// console.log(st.charAt(5));
+// console.log(st.split("")[5]);
+// console.log(st.split("").filter((char, index) => index === 5 ? char : "").join(""));
+// console.log(st.split("").reduce((acc, char, index) => index === 5 ? char : acc));
+// console.log(st.match(/o/)[0]);
+// Needed Output
+// "o"
+// "o"
+// "o"
+// "o"
+// "o"
+// "o"
+// "o"
 //#endregion;
