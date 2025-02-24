@@ -390,3 +390,148 @@
 // //   81
 // //   91
 //#endregion;
+"=========================  31  ============================";
+//#region ======>  31 <===========
+// let myArray = [100, 200, 300, 400];
+
+// Method 1
+// let clonedArray = [...myArray];
+// let clonedArray = myArray 
+// let clonedArray = [];
+// for (let i = 0; i < myArray.length; i++) {
+//     clonedArray.push( myArray[i]);
+// }
+// let clonedArray = Object.assign([] , myArray) ; 
+//  let clonedArray = Array.from (myArray)
+// let clonedArray = myArray.slice(0);
+// let clonedArray = JSON.parse(JSON.stringify(myArray));
+
+// console.log(clonedArray); // [100, 200, 300, 400]
+//#endregion;
+"=========================  32  ============================";
+//#region ======>  32 <===========
+// let strNumber = "10";
+
+// // Method 1
+// console.log(strNumber * 1); // 10
+// console.log(strNumber - 0); // 10 <= Same Solution
+// console.log(strNumber / 1);
+// console.log(+strNumber);
+// console.log(Number(strNumber));
+// console.log(parseFloat(strNumber));
+// console.log(parseInt(strNumber));
+// console.log(Math.floor(strNumber));
+// console.log(Math.round(strNumber));
+// console.log(Math.ceil(strNumber));
+// console.log(Math.trunc(strNumber));
+// console.log(JSON.parse(strNumber));
+// Output Needed 10 ===> Number
+//#endregion;
+"=========================  33  ============================";
+//#region ======>  33 <===========
+// console.log("%cElzero Web School", "color:white; background-color : #09c ; padding : 20px; border-radius : 10px");
+//#endregion;
+"=========================  34  ============================";
+//#region ======>  34 <===========
+// let arr = [1, 1, 1, 2, 3, 4, 3];
+// let uniqueElements = [];
+// for (let i = 0; i < arr.length; i++) {
+//     if (!uniqueElements.includes(arr[i])) {
+//         uniqueElements.push (arr[i])
+//     }
+// }
+// arr.forEach ( (ele) => !uniqueElements.includes(ele) ? uniqueElements.push(ele) : "" )
+// let uniqueElements = arr.filter((ele, index, arr) => arr.indexOf(ele) === index);
+// let uniqueElements = [... new Set (arr)]
+// console.log(uniqueElements); // [1, 2, 3, 4]
+//#endregion;
+"=========================  35  ============================";
+//#region ======>  35 <===========
+// function generateSerial() {
+//     let characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//     let serial = "";
+//     for (let i = 0; i <= 20; i++) {
+//         serial += characters[Math.floor(Math.random() * characters.length)];
+//     }
+//     return serial;
+// }
+
+// // First Refresh
+// console.log(generateSerial()); // 9cBcrg3kcWF4GZSlWXAM
+
+// // Second Refresh
+// console.log(generateSerial()); // vPeu6HXBgiXXj6jpch4P
+
+// // Third Refresh
+// console.log(generateSerial()); // RQuHFBjCdnp0Ghhp0544
+//#endregion;
+"=========================  36  ============================";
+//#region ======>  36 <===========
+
+//#endregion;
+"=========================  37  ============================";
+//#region ======>  37 <===========
+// let numOne = 100;
+// let numTwo = 200;
+
+// if (numOne > numTwo) {
+//   console.log("1st > 2nd");
+// } else if (numOne < numTwo) {
+//   console.log("1st < 2nd");
+// } else {
+//   console.log("1st = 2nd");
+// }
+
+// 1st < 2nd
+// numOne > numTwo ? console.log("1st > 2nd")
+//     : numOne < numTwo ? console.log("1st < 2nd")
+//         : console.log("1st = 2nd");
+//#endregion;
+"=========================  38  ============================";
+//#region ======>  38 <===========
+// let str = "i lovE elzeRO weB schOOL";
+// let result = str.split(" ").map((ele) => ele[0].toUpperCase() + ele.slice(1).toLowerCase()).join(" ");
+
+// console.log(result);
+// Output Needed
+// "I Love Elzero Web School"
+//#endregion;
+"=========================  39  ============================";
+//#region ======>  38 <===========
+// let myData = ["Osama", "Mohamed", "Elsayed", "Elzero"];
+
+// // Object.freeze(myData); 
+
+// myData.push("Name");
+// console.log(myData); // ['Osama', 'Mohamed', 'Elsayed', 'Elzero']
+//#endregion;
+
+"=========================  40  ============================";
+//#region ======>  39 <===========
+// const myData = {
+//     user: "Elzero",
+//     age: 41,
+//     country: "Egypt",
+// };
+// Object.freeze(myData);
+// myData.skill = "Programming";
+
+// console.log(myData.user); // Elzero
+// console.log(myData.age); // 41
+// console.log(myData.country); // Egypt
+// console.log(myData.skill); // Undefined
+//#endregion;
+"=========================  41  ============================";
+//#region ======>  40 <===========
+// const myData = {
+//     user: "Elzero",
+//     age: 41,
+//     country: "Egypt",
+// };
+
+// //  let cloned = {...myData} 
+// // let cloned = JSON.parse(JSON.stringify(myData))
+// // let cloned = structuredClone(myData)
+// // let cloned =Object.assign( {} , myData)
+//     console.log(cloned); // {user: 'Elzero', age: 41, country: 'Egypt'}
+//#endregion;
