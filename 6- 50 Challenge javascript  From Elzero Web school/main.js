@@ -615,3 +615,21 @@
 // let maxNumber = nums.sort ( (a , b) => b - a)[0]
 // console.log(maxNumber); // 300
 //#endregion;
+"=========================  47  ============================";
+ //#region ======>  47 <===========
+// const button = document.querySelector("button");
+// const textArea = document.querySelector("textarea");
+
+// button.addEventListener("click", function () {
+//     const text = textArea.value;
+//     // const blob = new Blob([text], { type: "text/plain" });
+//     // const url = URL.createObjectURL(blob);
+
+//     let a = document.createElement("a");
+//     a.innerHTML = text;
+//     a.download = "file.txt";
+//     a.setAttribute("href", 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+//     a.click();
+// });
+
+ //#endregion;
