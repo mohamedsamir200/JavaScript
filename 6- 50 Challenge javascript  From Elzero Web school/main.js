@@ -633,3 +633,12 @@
 // });
 
  //#endregion;
+"=========================  48  ============================";
+//#region ======>  48 <===========
+// function createStars(num) {
+//     for (let i = 0; i < num; i++) {
+//         console.log("*".repeat(2 * i + 1));
+//     }
+// }
+// createStars(8);
+//#endregion;
