@@ -535,3 +535,83 @@
 // // let cloned =Object.assign( {} , myData)
 //     console.log(cloned); // {user: 'Elzero', age: 41, country: 'Egypt'}
 //#endregion;
+"=========================  42  ============================";
+//#region ======>  42 <===========
+// document.body.addEventListener("keydown", function (event) {
+//     if (event.altKey && event.shiftKey && event.ctrlKey) {
+//         console.log("You Pressed Ctrl + Alt + Shift");
+//     }
+// });
+
+
+//#endregion;
+"=========================  43  ============================";
+//#region ======>  43 <===========
+
+// document.addEventListener("DOMContentLoaded", async function () {
+//     try {
+//         const tBody = document.querySelector(".result table tbody");
+//         const response = await fetch("https://api.github.com/users/elzerowebschool/repos");
+//         const data = await response.json();
+//         const topData = data.slice(0, 15);
+//         topData.forEach(data => {
+//             let tr = document.createElement("tr");
+//             tr.innerHTML = `
+//             <td>${data.name}</td>
+//             <td>${data.watchers}</td>
+//             <td> <a href= ${data.html_url} target = _blank>Visit</a> </td>
+//             `;
+//             tBody.appendChild(tr);
+//         });
+//     } catch (error) {
+//         console.error("Error Fetching", error);
+//     }
+// });
+
+
+
+
+//#endregion;
+"=========================  44  ============================";
+//#region ======>  44 <===========
+// let last = 30;
+// let sum = 0;
+// for (let i = last; i > 0; i--) {
+//     if (i % 2 != 0) {
+//         sum += i;
+//         console.log(i);
+//         i -= 2;
+//     }
+// }
+// console.log(sum);
+//#endregion;
+"=========================  45  ============================";
+//#region ======>  45 <===========
+// let rangeEnd = 10;
+// let myRange = [];
+// for (let i = 1; i <=rangeEnd; i++) {
+//     myRange.push(i)  
+// }
+// console.log(myRange)
+"======================";
+// let myRange = Array.from({ length: rangeEnd }, (_, i) => i + 1);
+// console.log(myRange);
+
+//#endregion;
+"=========================  46  ============================";
+//#region ======>  46 <===========
+// let nums = [10, -20, 300, 50, 100, -50];
+
+// let maxNumber = Math.max(...nums);
+// let maxNumber = nums.reduce( (acc , ele) => acc > ele ? acc : ele)
+
+// let maxNumber = 0;
+// for (let i = 0; i < nums.length; i++) {
+
+//     if (nums[i] > maxNumber) {
+//         maxNumber = nums[i];
+//     }
+// }
+// let maxNumber = nums.sort ( (a , b) => b - a)[0]
+// console.log(maxNumber); // 300
+//#endregion;
