@@ -1,0 +1,25 @@
+.item,.lightBoxItem i{
+    cursor: pointer;
+}
+.item-caption{
+    width: 80%;
+    bottom: 20px;
+    left: 10%;
+    
+}
+
+.lightBoxContainer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  
+}
+.lightBoxItem{
+    width: 45%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+}
